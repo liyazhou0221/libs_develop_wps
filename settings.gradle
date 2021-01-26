@@ -1,0 +1,2 @@
+rootProject.name='libs_wps_develop'
+include ':libs_develop_wps'
