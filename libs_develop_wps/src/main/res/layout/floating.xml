@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/floating"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#00FF0000"
+    android:orientation="vertical" >
+
+    <ScrollView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:background="#00FF0000"
+    android:scrollbars="none">
+    
+   <LinearLayout
+        android:id="@+id/Lin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#00FF0000"
+        android:gravity="center_vertical" >
+        <TextView
+            android:id="@+id/filename"
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:textSize="8sp"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+			android:focusable="true"
+			android:background="#FFFF0000"
+            android:textColor="#FFFFFF" />
+ 		<Button
+            android:id="@+id/btnHide"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/hideAll"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+ 		
+        <Button
+            android:id="@+id/btnCloseWindow"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/closeWindow"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+        
+
+        <Button
+            android:id="@+id/btnNew"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/newDocument"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnOpen"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/open"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+
+			
+        <Button
+            android:id="@+id/btnAddPic"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/addPic"
+            android:textColor="#ff0000"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="XY坐标"
+            android:textColor="#ff0000"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+        	<!--             android:text="@string/save" -->
+        
+
+        <Button
+            android:id="@+id/btnSaveAs"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/saveAs"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnOpenHandWriter"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/openHandWrite"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCloseHandWriter"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/closeHandWrite"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/close"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+		<Button
+            android:id="@+id/btnInsertParagraph"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/insertParagraph"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+		
+		<Button
+            android:id="@+id/btnCopy"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="插入批注"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+		<Button
+            android:id="@+id/btnPaste"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="修订批注作者"
+            android:textColor="#ff0000"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+		<Button
+            android:id="@+id/btnCut"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="修订模式、批注个数"
+            android:textColor="#ff0000"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+		<Button
+            android:id="@+id/btnAddPicture"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="进度、缩放比"
+            android:textColor="#ff0000"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+		<!--             android:text="@string/adPicture" -->
+		<Button
+            android:id="@+id/btnIsModi"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/isModi"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+		
+		<Button
+            android:id="@+id/btnTypeText"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="修改作者名"
+            android:textColor="#ff0000"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+		
+		<Button
+            android:id="@+id/btnSaveCurrentPage2Img"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/saveToImg"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+		
+		<Button
+            android:id="@+id/btnClearComment"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="保存状态"
+            android:textColor="#ff0000"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+		<!--             android:text="@string/clearComment" -->
+		<Button
+            android:id="@+id/btnUndo"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/undo"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+				
+		<Button
+            android:id="@+id/btnRedo"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/redo"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+		
+		<Button
+            android:id="@+id/btnSelection"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/Selection"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+		
+		<Button
+            android:id="@+id/btnHiddenToolBar"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/hiddenToolBar"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+		
+		<Button
+            android:id="@+id/btnHiddenMenuBar"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/hiddenMenuBar"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+		
+		<Button
+            android:id="@+id/btnEnterReviseMode"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/enterReviseMode"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+		
+		<Button
+            android:id="@+id/btnExitReviseMode"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/exitReviseMode"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+		
+		<Button
+            android:id="@+id/btnAcceptAllRevision"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/acceptAllRevision"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+		
+        <Button
+            android:id="@+id/btnCleanCopy"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/cleanCopy"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+        
+        <Button
+            android:id="@+id/btnSetSelection"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/SetSelection"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+
+		<Button
+            android:id="@+id/btnShowOther"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/showOther"
+            android:textSize="13sp"
+            android:padding="1dip"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:id="@+id/cleanCopyRecordView"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    </ScrollView>
+
+</LinearLayout>

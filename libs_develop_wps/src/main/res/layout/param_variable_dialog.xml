@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- dialog layout -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="2dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="插入自定义属性的key和value值："
+            android:textColor="#3FB2FF"
+            android:typeface="monospace"
+            android:width="60dip" />
+
+        <EditText
+            android:id="@+id/editAddText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3FB2FF"
+            android:typeface="monospace"
+            android:width="180dip" />
+        
+        <EditText
+            android:id="@+id/editAddText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3FB2FF"
+            android:typeface="monospace"
+            android:width="180dip" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- dialog layout -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图片路径"
+            android:textColor="#3FB2FF"
+            android:typeface="monospace"
+            android:width="60dip" />
+
+        <EditText
+            android:id="@+id/filePath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3FB2FF"
+            android:typeface="monospace"
+            android:width="200dip"
+            android:hint="" />
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="inkToFile"
+            android:textColor="#3FB2FF"
+            android:typeface="monospace"
+            android:width="100dip" />
+
+        <RadioGroup 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:id="@+id/raInkToFileGroup"
+		    android:orientation="horizontal">
+		    
+		    <RadioButton 
+		        android:id="@+id/rbInkToFileTrue"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="true"
+		        android:textColor="#3FB2FF"
+		        android:width="100dip"
+		        />
+		     <RadioButton 
+		        android:id="@+id/rbInkToFileFalse"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="false"
+		         android:checked="true"
+		         android:textColor="#3FB2FF"
+		        />
+		</RadioGroup>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="saveWithDocument"
+            android:textColor="#3FB2FF"
+            android:typeface="monospace"
+            android:width="100dip" />
+
+        <RadioGroup 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:id="@+id/raSaveWithDocumentGroup"
+		    android:orientation="horizontal">
+		    
+		    <RadioButton 
+		        android:id="@+id/raSaveWithDocumentTrue"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="true"
+		        android:textColor="#3FB2FF"
+		        android:width="100dip"
+		        />
+		     <RadioButton 
+		        android:id="@+id/raSaveWithDocumentFalse"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="false"
+		         android:checked="true"
+		         android:textColor="#3FB2FF"
+		        />
+		</RadioGroup>
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图片左边缘"
+            android:textColor="#3FB2FF"
+            android:typeface="monospace"
+            android:width="60dip" />
+
+        <EditText
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3FB2FF"
+            android:typeface="monospace"
+            android:width="180dip"
+            android:phoneNumber="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图片上边缘"
+            android:textColor="#3FB2FF"
+            android:typeface="monospace"
+            android:width="60dip" />
+
+        <EditText
+            android:id="@+id/top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3FB2FF"
+            android:typeface="monospace"
+            android:width="180dip" 
+            android:phoneNumber="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图片宽度"
+            android:textColor="#3FB2FF"
+            android:typeface="monospace"
+            android:width="60dip" />
+
+        <EditText
+            android:id="@+id/width"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3FB2FF"
+            android:typeface="monospace"
+            android:width="180dip" 
+            android:phoneNumber="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图片高度"
+            android:textColor="#3FB2FF"
+            android:typeface="monospace"
+            android:width="60dip" />
+
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3FB2FF"
+            android:typeface="monospace"
+            android:width="180dip" 
+            android:phoneNumber="true"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="插入点"
+            android:textColor="#3FB2FF"
+            android:typeface="monospace"
+            android:width="60dip" />
+
+        <EditText
+            android:id="@+id/cp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3FB2FF"
+            android:typeface="monospace"
+            android:width="180dip" 
+            android:phoneNumber="true"
+            android:hint="如果是空文档，应为0"/>
+    </LinearLayout>
+
+    
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WrapType"
+            android:textColor="#3FB2FF"
+            android:typeface="monospace"
+            android:width="100dip" />
+
+        <RadioGroup 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:id="@+id/raWrapTypeGroup"
+		    android:orientation="vertical">
+		    
+		    <RadioButton 
+		        android:id="@+id/raWrapTypeSquare"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Square"
+		        android:checked="true"
+		        android:textColor="#3FB2FF"
+		        android:width="180dip"
+		        />
+		     <RadioButton 
+		        android:id="@+id/raWrapTypeTight"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Tight"
+		         android:textColor="#3FB2FF"
+		        />
+		     <RadioButton 
+		        android:id="@+id/raWrapTypeTopOfText"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="TopOfText"
+		        android:textColor="#3FB2FF"
+		        android:width="180dip"
+		        />
+		     <RadioButton 
+		        android:id="@+id/raWrapTypeBottomOfText"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="BottomOfText"
+		         android:textColor="#3FB2FF"
+		        />
+		</RadioGroup>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- dialog layout -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="2dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="文件保存路径："
+            android:textColor="#3FB2FF"
+            android:typeface="monospace"
+            android:width="60dip" />
+
+        <EditText
+            android:id="@+id/SaveAsPath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3FB2FF"
+            android:typeface="monospace"
+            android:width="180dip" />
+    </LinearLayout>
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+         >
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="文件保存格式："
+		    android:textColor="#3FB2FF"
+		    android:typeface="monospace"
+		    android:width="60dip" />
+
+		<RadioGroup 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:id="@+id/saveAsFormat">
+		    
+		    <RadioButton 
+		        android:id="@+id/DOC"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="DOC"
+		        android:checked="true"
+		        android:textColor="#3FB2FF"
+		        android:width="180dip"
+		        />
+		     <RadioButton 
+		        android:id="@+id/DOCX"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="DOCX"
+		         android:textColor="#3FB2FF"
+		        />
+		</RadioGroup>
+    </LinearLayout>
+</LinearLayout>

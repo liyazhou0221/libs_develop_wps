@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">moffice_demo(总)</string>
+    <string name="action_settings">Settings</string>
+    <string name="floatingview_on">TURN ON Floating View</string>
+    <string name="floatingview_off">TURN OFF Floating View</string>
+	<string name="description">"说明：\n1.悬浮窗可随意移动\n2.实时显示当前内存数据\n3.上层数据表示可用内存值\n4.下层数据表示总内存值\n5.点击悬浮窗出现关闭小图标可直接关闭\n\n"</string>
+	<string name="newDocument">新建文档</string>
+	<string name="open">打开文档</string>
+	<string name="addPic">添加浮动图</string>
+	<string name="close">关闭文档</string>
+	<string name="save">保存文档</string>
+	<string name="saveAs">另存为</string>
+	<string name="filecollection">File Manager</string>
+	<string name="openHandWrite">打开手绘</string>
+	<string name="closeHandWrite">关闭手绘</string>
+	<string name="enterReviseMode">进入修订</string>
+	<string name="exitReviseMode">退出修订</string>
+	<string name="acceptAllRevision">接受所有修订</string>
+	<string name="denyAllRevision">拒绝所有修订</string>
+	<string name="hiddenToolBar">隐藏工具栏</string>
+	<string name="hiddenMenuBar">隐藏菜单栏</string>
+    <string name="process">进度：</string>
+    <string name="scale">缩放比例：</string>
+    <string name="xPos">X坐标：</string>
+    <string name="yPos">Y坐标：</string>
+    <string name="cleanCopy">清稿</string>
+    <string name="cleanCopyRecord">清稿记录</string>
+    <string name="closeWindow">关闭窗口</string>
+    
+	<string name="insertParagraph">新段落替换</string>
+	<string name="copy">复制</string>
+	<string name="paste">粘贴</string>
+	<string name="cut">剪切</string>
+	<string name="typeText">插入文字</string>
+	<string name="saveToImg">修订保护</string>
+	<string name="showOther">下页功能</string>
+	<string name="adPicture">添加嵌入图</string>
+	<string name="hideAll">隐藏所有</string>
+	<string name="clearComment">批注保护</string>
+	<string name="undo">只读保护</string>
+	<string name="redo">取消保护</string>
+	<string name="Selection">选区信息</string>
+	<string name="SetSelection">设置选区</string>
+	
+	<string name="showPage">显示页数、路径、名称</string>
+	<string name="isModi">插入文本框</string>
+	<string name="getPageCount">获取文档页数</string>
+	<string name="getPage">获取文档Page</string>
+	<string name="getPath">获取文档路径</string>
+	<string name="getName">获取文档名称</string>
+</resources>

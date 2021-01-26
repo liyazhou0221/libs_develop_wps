@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <item>
+        <id>menu_id_revise_mode</id>
+        <text>进入修订</text>
+    </item>
+    <item>
+        <id>menu_id_save_document</id>
+        <text>保存</text>
+    </item>
+    <item>
+        <id>menu_id_exit_wps</id>
+        <text>退出WPS</text>
+    </item>
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:title="进入修订">
+		<id>menu_id_comment_pad</id>
+		<text>进入修订</text>
+	</item>
+	<item android:title="退出修订">
+		<id>menu_id_exit_comment</id>
+		<text>退出修订</text>
+	</item>
+	<!--<var_item>-->
+	<!--<id>menu_id_comment</id>-->
+	<!--<text>修订</text>-->
+	<!--</var_item>-->
+	<!--<items>
+		<item android:title="TODO">
+			<id>menu_id_test1</id>
+			<text>测试1</text>
+		</item>
+		<var_item>
+			<id>menu_id_test2</id>
+			<text>测试2</text>
+		</var_item>
+	</items>-->
+</menu>

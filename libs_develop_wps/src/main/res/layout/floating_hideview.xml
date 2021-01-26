@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/floating"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#00FF0000"
+    android:orientation="horizontal" >
+
+  	<LinearLayout
+        android:id="@+id/Linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical" >
+        <TextView
+            android:id="@+id/filename"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:ellipsize="marquee"
+            android:gravity="right"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+			android:focusable="true" 
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnStopWindow"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/closeWindow"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btnOpen"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/open"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        
+		<Button
+            android:id="@+id/btnGetPageCount"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/getPageCount"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+		<Button
+            android:id="@+id/btnGetPath"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/getPath"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+		
+		<Button
+            android:id="@+id/btnGetName"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/getName"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+		
+		<Button
+            android:id="@+id/btnGetPage"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/getPage"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+		
+        <Button
+            android:id="@+id/btnSaveAs"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/saveAs"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btngetText"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="获取文本信息"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
