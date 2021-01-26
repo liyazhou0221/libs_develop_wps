@@ -1,0 +1,2 @@
+# libs_develop_wps
+Android 调用WPS提供的AIDL或第三方方式打开，进行查看或编辑文档功能
